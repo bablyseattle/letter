@@ -1,3 +1,33 @@
+body {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 18px;
+}
+
 #letter {
   display: none;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.letter-text {
+  border-right: 1px solid #ddd;
+  padding-right: 5%;
+}
+
+.letter-address {
+  font-size: 22px;
+  padding-top: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.panel-default {
+  margin: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .letter-text {
+    border-right: none;
+  }
 }
